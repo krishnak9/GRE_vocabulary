@@ -1,0 +1,83 @@
+.side_glassy{
+	background-image: url("../img/gre.gif");
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	background-repeat: false;
+	opacity: 1;
+	background-position: center;
+	//border-radius: 10px;
+	//z-index: 60px;
+}
+.alphabet_space{
+	padding-left: 10%;
+	padding-right: 5%;
+	padding-top: 5%;
+	
+}
+.alphabet{
+	margin: 2%;
+	//font-size: 29px;
+}
+.heading{
+	font-size: 20px;
+	color: black;
+	padding-left: 25%;
+	padding-top: 25px;
+	background-color: #b2b2b2;
+	opacity: 0.8;
+	padding-bottom: 20px;
+
+}
+@font-face{
+	font-family: myfont_one;
+	src: url("fonts/Montserrat-Hairline.otf");
+}
+#bar-heading{
+	text-align: center;
+
+}
+.word{
+	font-family: myfont_one;
+	font-size: 25px;
+	color:black;
+	background-color: white;
+	position: relative;
+	
+}
+p{
+	font-family: myfont_one;
+}
+.card-padding{
+	background: #B6CACC;
+	opacity:0.6;
+	border-radius: 30px;
+}
+.view-background{
+	background-image: url("../images/backview.jpg");
+	background-repeat: false;
+	
+	background-position: center;
+}
+.meaning{
+	font-size: 15px;
+	//font-weight: bold;
+	font-style: italic;
+	text-align: left;
+	padding-left: 20px;
+	background-color: yellow;
+	border-radius: 20px;
+
+
+}
+.word-word{
+	font-size: 30px;
+	color: red;
+	padding-right:3px;
+	padding-bottom: 10px;
+	
+}
+.meaning-meaning{
+	font-size: 20px;
+	padding-bottom: 10px;
+}

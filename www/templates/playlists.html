@@ -1,0 +1,12 @@
+<ion-view view-title="GRE Vocabulary">
+  <ion-content>
+     
+    <!-- <div class="heading">Choose an Alphabet</div> -->
+     <div class="alphabet_space">
+      <a class="button button-balanced button-fab alphabet" ng-repeat="playlist in playlists" href="#/app/playlists/{{playlist.id}}">
+         <h2 style="padding-top: 10%;color: white;">{{playlist.title}}</h2>
+      </a>
+      </div>
+   
+  </ion-content>
+</ion-view>

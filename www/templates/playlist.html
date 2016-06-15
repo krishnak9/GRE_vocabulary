@@ -1,0 +1,27 @@
+<ion-view view-title="Words" class="view-background">
+<ion-content class="has-header" ng-controller="PlaylistCtrl">
+         <div class="list">
+           <!--<a href="#/edit/{{note.noteId}}" class="item" ng-repeat="note in data">
+              <div class="word border-top">{{note.title}}</div>
+              <p>{{note.desc}}</p>
+           </a> -->
+           <div class="list card-padding border-top" style="margin:15px;" ng-repeat="note in words">
+                <div class="item item-avatar ">
+                   
+                    
+                     <div class="word-word">Word</div>
+                    <div class="word">{{note.WORD}}</div>
+                    
+                </div>
+                <div class="item item-body" style="text-align: right;">
+                    
+                    <div class="meaning-meaning ion-arrow-down-b"> Meaning</div>
+                    <div class="meaning ion-arrow-right-b">{{note.DEFINITION}}</div>
+                    
+                </div>
+               
+            </div>
+
+           </div>        
+ </ion-content>
+ </ion-view>
